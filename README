@@ -1,0 +1,21 @@
+This is a basic project to build a control board for lightsaber replicas
+
+Required hardware:
+
+  1. 1x ATtiny85
+  2. 1x WT588D soundboard
+  3. 1x 10µF Capacitor
+  4. 1x Swing sensor sw200d
+  5. 1x Clash sensor sw18020p
+  6. 1x Voltage regulator LM1117 (3,3V) (any other 3,3V regulator is good)
+  7. 1x MosFet according to your LED setup (if you want to use the board in the fzz you need a sot223 package)
+  8. 1x Momentary switch to turn your saber on and off (anti vandal switches are perfect)
+  9. 1x LEDs for your blade (cree high power LEDs are very common for this)
+  10. Either the board from the fzz or a selfmade board wired according to the fzz
+
+How to use this one:
+
+  1. Acquire Hardware
+  2. Assemble Hardware
+  3. Use your favorite IDE for Arduino with an ATtiny Plugin to upload the code to the Hardware
+  4. Have fun
